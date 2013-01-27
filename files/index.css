@@ -1,0 +1,133 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	color: #000;
+	font-family: Verdana,Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+#header{
+}
+#header h3{
+	padding: 10px;
+	margin: 0px;
+}
+#body{
+	margin: 0px;
+	padding: 10px 10px;
+	display: block;
+	min-height: 600px;display: block;
+}
+#tables{
+	display: block;
+	width: 100%; float: right; 
+	font-size: 14px;
+}
+table{
+	border: 1px solid #fff;
+	background-color: rgba(230,230,230,0.2);
+}
+#actionStatus{
+	font-size: 10px;
+	float: left;
+}
+table th,table td{
+	border: 1px solid #747474;
+	padding: 5px 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+option{
+	cursor: pointer;
+}
+table span{
+	margin: 0px auto;
+}
+table th{
+	color: #fff;
+	border: 2px ridge #aaa;
+background-color: rgba(0,0,0,0.5);
+}
+table img{
+	width: 50px; height: 50px;
+}
+.rankTable{
+	margin: 0px auto;
+}
+h3.rankTable{
+	position: relative;
+	margin-left: 43%;
+}
+.yesicon{
+	background: url(updown.png) 0 0 ;
+}
+.noicon{
+	background: url(updown.png) -25px 0;
+}
+.equalicon{
+	background: url(updown.png) -50px 0;
+}
+.yesicon,.noicon,.equalicon{
+	display: block;
+	width: 25px;
+	height: 25px;
+}
+.errorDiv{
+	color: #a77;
+}
+.infoDiv{
+	color: #7aa;
+}
+.infoDiv, .errorDiv{
+	padding: 10px; margin: 5px;
+	border: 1px solid #aaa;
+	width: 50%;
+	border-radius: 10px;
+}
+#updateIn{
+	border: 1px solid #722;
+	border-radius: 5px; padding: 10px;
+}
+#updates{
+	position: relative;font-size: 20px; margin: 0px; margin-left: 10px; overflow: hidden; float: left	;
+	width: 500px;; color: #700;
+}
+#companies,#currentPrices,#ranking{
+	float: left;
+	padding: 1%;
+}
+#companies{
+	width: 40%;
+	margin: 0px; padding: 0px;
+	font-size: 14px;
+}
+#companies td{
+	padding: 2px 5px;
+}
+#currentPrices{
+	width: 36%;
+}
+#ranking{
+	width: 15%;
+}
+#ranking th{
+	width: 100%;
+}
+#footer{
+	text-align: center;
+	font-size: 12px;
+	font-family: Georgia, serif;
+	padding: 10px 0px; padding-top: 0px;
+	display: block;
+	width: 100%;
+	color: #777;
+	float: left;	
+	background:url(footer_wash.png) repeat-x top left;
+}
+.clear{
+	width: 100%;
+	display: block;
+	position: relative;
+	margin: 0px; padding: 0px;
+	float: left;
+}
